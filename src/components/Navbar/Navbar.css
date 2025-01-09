@@ -1,0 +1,23 @@
+#navbar_area2 {
+    height: 10vh;
+  }
+
+  #nav2 > h1 {
+    font-size: 43px;
+    font-family: "Encode Sans Condensed", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-left: 36px;
+   text-align: center;
+   align-items: center;
+  }
+
+  #nav2 {
+    display: flex;
+    background-color: #265ba7;
+    height: 10vh;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
