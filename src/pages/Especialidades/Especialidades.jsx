@@ -1,20 +1,18 @@
-import "../../styles/global.css";
 import React from "react";
 import { Container, Menu, Input, Button, Icon } from "semantic-ui-react";
 import "./Especialidades.css";
-
+import logo from "../../assets/logo.png";
 
 const Especialidades = () => {
   return (
     <div className="container">
       <aside className="sidebar">
         <div className="logo">
-          <img src="logo.png" alt="eClinic+" className="logo-img" />
-          <h1>eClinic+</h1>
+          <img src={logo} alt="eClinic+" className="logo-img" />
         </div>
         <nav className="menu">
           <ul>
-            <li>Especialidades</li>
+            <li><b>Especialidades</b></li>
             <li>Médicos</li>
             <li>Pacientes</li>
             <li>Consultas</li>
@@ -51,17 +49,17 @@ const Especialidades = () => {
               <tr>
                 <td><input type="checkbox" /></td>
                 <td>Ortopedia</td>
-                <td><button className="details-button">⏲️</button></td>
+                <td><button className="details-button">ℹ️</button></td>
               </tr>
               <tr>
                 <td><input type="checkbox" /></td>
                 <td>Dentista</td>
-                <td><button className="details-button">⏲️</button></td>
+                <td><button className="details-button">ℹ️</button></td>
               </tr>
               <tr>
                 <td><input type="checkbox" /></td>
                 <td>Clínico</td>
-                <td><button className="details-button">⏲️</button></td>
+                <td><button className="details-button">ℹ️</button></td>
               </tr>
             </tbody>
           </table>
